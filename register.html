@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>YOU JUST LINKED HERE</title>
+</head>
+<body>
+ <h1>REGISTER</h1>
+ <h1>You just sent yourself here w a link.  You traversed pages!!</h1>
+ <a href="file:///Users/joekramer/Desktop/udemy/ztm_webdev_2020_all/html_project/html_001.html">now REVERSE</a>
+
+ <form method="GET">
+ 	First Name<input type="text" name="firstname"><br>
+ 	Last Name<input type="text" name="lastname"><br>
+ 	Email<input type="email" name="email"><br>
+ 	Password:<input type="password" minlength="5" name="password"><br>
+ 	Birthday<input type="date" name="birthday"><br>
+ 	
+ 	Gender:<br>
+ 	<input type="radio" name="gender" name="male" value="male" > Male
+ 	<input type="radio" name="gender" name="female" value="female">Female<br>
+
+ 	Pets<br>
+ 	<input type="checkbox" name="pets" value="dog">Dog<br>
+ 	<input type="checkbox" name="pets" value="Cats">Cats<br>
+<! to get data sent thru query params you must have name="" & value="" pairs!!!!!
+ 	Cars:<br>
+ 	<select name="cars">
+ 		<option value="Chevy" name="chevy" value="chevy">Chevy</option>
+ 		<option value="Ford" name="ford" value="ford">Ford</option>
+ 	</select>
+
+ 	<br><input type="submit" value="Register">
+ 	<input type="reset" name="">
+
+ </form>
+</body>
+</html>
+
+file:///Users/joekramer/Desktop/udemy/ztm_webdev_2020_all/html_project/register.html
+?firstname=bill
+&lastname=bo
+&email=bo%40bo.com
+&password=12345
+&birthday=
+&gender=male
+&pets=dog
+
+file:///Users/joekramer/Desktop/udemy/ztm_webdev_2020_all/html_project/register.html?firstname=all&lastname=rom&email=dfsda%40gmail&password=asdfg&birthday=&gender=male&pets=dog&cars=Chevy
+
